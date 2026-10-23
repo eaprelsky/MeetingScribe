@@ -1,0 +1,16 @@
+The GNU LGPL version 3 incorporates the GNU GPL version 3.
+License texts are copied verbatim from the Qt project's qtbase repository:
+https://github.com/qt/qtbase/tree/v6.10.2/LICENSES
+
+The application dynamically links to unmodified Qt/PySide6 libraries under LGPLv3.
+These libraries may be replaced with compatible modified libraries in _internal.
+Reverse engineering for debugging modifications to these libraries is permitted.
+
+Corresponding upstream source for the exact Qt release:
+https://download.qt.io/archive/qt/6.10/6.10.2/single/
+https://code.qt.io/cgit/qt/qtbase.git/?h=v6.10.2
+https://code.qt.io/cgit/pyside/pyside-setup.git/?h=v6.10.2
+
+Additional third-party notices:
+https://doc.qt.io/qt-6.10/licenses-used-in-qt.html
+https://doc.qt.io/qtforpython-6.10/licenses.html

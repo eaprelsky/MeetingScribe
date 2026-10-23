@@ -10,3 +10,5 @@
 !README.md
 !LICENSE
 !package_licenses.py
+!licenses/
+!licenses/**

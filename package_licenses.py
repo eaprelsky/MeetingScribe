@@ -8,6 +8,7 @@ import sys
 def package(destination):
     target = Path(destination) / 'LICENSES'
     target.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(Path(__file__).parent / 'licenses', target / 'Qt-LGPL', dirs_exist_ok=True)
     inventory = []
     for distribution in distributions():
         name = distribution.metadata.get('Name', 'unknown')
