@@ -1,0 +1,12 @@
+# Publish only reviewed source files. Local recordings, credentials, generated
+# binaries, virtual environments and personal settings stay outside Git.
+*
+!.gitignore
+!app.py
+!test_app.py
+!requirements.txt
+!MeetingScribe.spec
+!build.ps1
+!README.md
+!LICENSE
+!package_licenses.py
